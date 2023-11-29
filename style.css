@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700;900&display=swap');
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e6edf3;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #212325;
+}
+
+p{
+    font-size:  20px;
+    text-align: center;
+    color: #363636;
+}
+
+#balance-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#total {
+    color: #28a745;
+    font-weight: bold;
+}
+
+#balance {
+    color: #dc3545;
+    font-weight: bold;
+}
+
+#expenses-container {
+    margin-bottom: 20px;
+}
+
+#expenses-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.expense-item {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #ced4da;
+    padding: 12px 0;
+}
+
+#add-expense-form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 8px;
+    color: #44494d;
+}
+
+input, button {
+    margin-bottom: 16px;
+    padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 0.5em;
+    padding: 15px 0;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
